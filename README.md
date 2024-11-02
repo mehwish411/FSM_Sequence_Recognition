@@ -8,4 +8,8 @@ The FSM is implemented using a **one-hot state assignment**, where each unique s
 **Gate-Level and RTL**: Includes both gate-level (one-hot encoding) and RTL (binary encoding) Verilog code.<br>
 **Overlapping Sequences Supported**: Continuous sequence detection.
 
+## State Diagram 
+![state diagram](https://github.com/user-attachments/assets/0eb63f7f-b3e0-46a3-ac4e-bce40e062801)
+
+## One-Hot Codes
 ![image](https://github.com/user-attachments/assets/73829a81-f706-4a25-8c12-d0236c7ce215)
