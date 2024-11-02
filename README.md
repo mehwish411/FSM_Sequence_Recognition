@@ -8,7 +8,7 @@ Output: z – a single-bit output that becomes 1 when four consecutive 1s or fou
 Overlapping Sequences: Allowed. For instance, if w = 1 for five consecutive clock cycles, z will be high after the fourth and fifth cycles.
 The FSM is implemented using a one-hot state assignment, where each unique state is represented by one of nine state flip-flops (y8 to y0). The FSM's logic expressions, as derived from the state diagram, are used to define transitions.
 
-Table of Contents
+**Table of Contents**
 1. Features
 2. File Structure
 3. Getting Started
@@ -17,7 +17,7 @@ Table of Contents
 6. Testing
 7. License
 
-Features
+*Features*
 FSM Implementation: Detects four consecutive 1s or 0s, outputs z=1 on match.
 Gate-Level and RTL: Includes both gate-level (one-hot encoding) and RTL (binary encoding) Verilog code.
 Overlapping Sequences Supported: Continuous sequence detection.
