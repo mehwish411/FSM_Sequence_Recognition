@@ -9,10 +9,10 @@ Overlapping Sequences: Allowed. For instance, if w = 1 for five consecutive cloc
 The FSM is implemented using a one-hot state assignment, where each unique state is represented by one of nine state flip-flops (y8 to y0). The FSM's logic expressions, as derived from the state diagram, are used to define transitions.
 
 Table of Contents
-Features
-File Structure
-Getting Started
-FSM Design
-Usage
-Testing
-License
+1. Features
+2. File Structure
+3. Getting Started
+4. FSM Design
+5. Usage
+6. Testing
+7. License
