@@ -16,3 +16,8 @@ Table of Contents
 5. Usage
 6. Testing
 7. License
+
+Features
+FSM Implementation: Detects four consecutive 1s or 0s, outputs z=1 on match.
+Gate-Level and RTL: Includes both gate-level (one-hot encoding) and RTL (binary encoding) Verilog code.
+Overlapping Sequences Supported: Continuous sequence detection.
