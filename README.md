@@ -1,2 +1,18 @@
 # FSM_Sequence_Recognition
-Verilog implementation of a Finite State Machine (FSM) to detect sequences of four consecutive 1s or 0s, with gate-level and RTL code. The FSM utilizes a one-hot state assignment and outputs high (z=1) when the sequence condition is met, allowing for overlapping detection. Includes state diagram, logic expressions, and testbenches for verification.
+This repository contains a Verilog implementation of a Finite State Machine (FSM) designed to recognize sequences of four consecutive 1s or four consecutive 0s in an input stream. The FSM outputs a high signal (z=1) whenever four consecutive 1s or 0s are detected, allowing for overlapping sequences.
+Project Overview
+In this FSM:
+
+Input: w – a single-bit input representing a sequence of bits (either 1 or 0).
+Output: z – a single-bit output that becomes 1 when four consecutive 1s or four consecutive 0s are detected.
+Overlapping Sequences: Allowed. For instance, if w = 1 for five consecutive clock cycles, z will be high after the fourth and fifth cycles.
+The FSM is implemented using a one-hot state assignment, where each unique state is represented by one of nine state flip-flops (y8 to y0). The FSM's logic expressions, as derived from the state diagram, are used to define transitions.
+
+Table of Contents
+Features
+File Structure
+Getting Started
+FSM Design
+Usage
+Testing
+License
