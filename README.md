@@ -14,5 +14,6 @@ The FSM is implemented using a **one-hot state assignment**, where each unique s
 ### One-Hot Codes
 ![image](https://github.com/user-attachments/assets/73829a81-f706-4a25-8c12-d0236c7ce215)
 
+### Output
 ![seq_det_gatelvl1](https://github.com/user-attachments/assets/8ef0b523-e943-4428-a57d-a1019b12ec58)
 
